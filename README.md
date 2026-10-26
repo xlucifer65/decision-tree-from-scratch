@@ -1,5 +1,7 @@
 # Decision Tree From Scratch
 
+[![PyPI](https://img.shields.io/pypi/v/decision-tree-from-scratch)](https://pypi.org/project/decision-tree-from-scratch/)
+
 An educational decision tree classifier built with Pandas and Python (without scikit-learn for tree training). Supports categorical splits, numerical thresholds, explicit missing-value branches, prediction, and Matplotlib visualization.
 
 ## Setup

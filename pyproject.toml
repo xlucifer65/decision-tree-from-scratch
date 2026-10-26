@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decision-tree-from-scratch"
+version = "0.1.0"
+description = "Educational decision tree classifier built with Pandas, with categorical/numeric splits, missing-value branches and Matplotlib visualization."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Mohd Rayyan Ahemad" }]
+dependencies = ["pandas>=2.0", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+eval = ["scikit-learn>=1.3"]
+
+[project.urls]
+Homepage = "https://github.com/xlucifer65/decision-tree-from-scratch"
+
+[tool.setuptools]
+py-modules = ["decision_tree_visualizer"]
